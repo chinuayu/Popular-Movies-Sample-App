@@ -1,0 +1,12 @@
+This project intents to fetch the popular movie json from
+"https://developers.themoviedb.org/3/movies/get-popular-movies"
+and render them into a grid format which is a designed layout in recycler view.
+
+Upon clicking on the object it takes the user into very simple detail page as of now, which
+can be extended to do multiple actions.
+
+App uses Room DB for Offline Loading, Daager for dependency injection.
+It is implemented in MVVM architecture and uses shared view model approach
+for communication between two fragments.
+
+currently app has test cases for data base and movies list view model.
